@@ -11,19 +11,19 @@ d = Button(text="/")
 l = Label(width=20, fg='black')
 
 def f():
-a = e1.get()
-return int(a)
+  a = e1.get()
+  return int(a)
 
 
 def g():
-b = e2.get()
-return int(b)
+  b = e2.get()
+  return int(b)
 
 
 def p1(event):
-c = f()+g()
-c = str(c)
-l['text'] = ' '.join(c)
+  c = f()+g()
+  c = str(c)
+  l['text'] = ' '.join(c)
 
 def m11(event):
 c = f()-g()
@@ -31,14 +31,14 @@ c = str(c)
 l['text'] = ' '.join(c)
 
 def m21(event):
-c = f()*g()
-c = str(c)
-l['text'] = ' '.join(c)
+  c = f()*g()
+  c = str(c)
+  l['text'] = ' '.join(c)
 
 def d1(event):
-c = f()/g()
-c = str(c)
-l['text'] = ' '.join(c)
+  c = f()/g()
+  c = str(c)
+  l['text'] = ' '.join(c)
 
 
 p.bind('<Button-1>', p1)
