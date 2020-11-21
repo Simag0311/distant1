@@ -53,3 +53,5 @@ m1.pack()
 m2.pack()
 d.pack()
 l.pack()
+
+root.mainloop()
